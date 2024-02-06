@@ -1,0 +1,33 @@
+.homeScroll {
+    margin-left: 9.25rem;
+}
+
+.wheel {
+    animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(3.75rem);
+    }
+}
+
+.homeScrollName {
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+    margin-left: 2px;
+}
+
+.homeScrollArrow {
+    font-size: 1.25rem;
+    color: var(--title-color);
+} 
+
+.buttonFlex {
+    display: inline-flex;
+    align-items: center;
+  }
